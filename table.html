@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Size Table</title>
+    <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css&quot;>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js&quot;></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js&quot;></script> -->
     <style>
         *{
             margin:0;
@@ -40,6 +49,67 @@
         td{
             text-align: center;
         }
+
+
+
+
+
+
+        .container{
+        width: 30%;
+}
+
+input {
+        width: 100%;
+border: none;
+text-align: center;
+}
+
+.common{
+        text-align: center;
+}
+
+.cate{
+        background-color:#D3D3D3;
+}
+
+.siz1{
+        background-color: #00ccff;
+}
+
+.siz12{
+        background-color: #ff884d;
+}
+
+.inch1{
+        background-color: #0066ff;
+}
+
+.clear{
+        background-color: black;
+        color: #ffff;
+}
+
+.base{
+        background-color: #00cc00;
+}
+
+.reset{
+        background-color:   #8585ad;
+}
+
+.pom1{
+        background-color: #33bbff;
+}
+
+.unsel{
+        background-color:   #00ffff;
+}
+
+.gen{
+        background-color: #7575a3;
+}
+
     </style>
 </head>
 <body>
@@ -49,7 +119,7 @@
             <thead>
                 <tr>
                     <th>CATEGORY</th>
-                    <th class="bg-white">SELECT CATEGORY</th>
+                    <th class="bg-white">Select Category</th>
                     <th>BRAND/STYLE</th>
                     <th colspan="7">Enter Style</th>
                     </tr>
@@ -177,6 +247,88 @@
             
         </table>  
     </div>    
+    <div class="table-2">
+        <h2>Chart 2</h2>
+        <table border="1" class="container">
+            <tbody>
+                <tr>
+                    <td class="common cate">CATEGORY</td>
+                    <td colspan="2"> <input type="text" value="Tops" > </td>
+                </tr>
+                <tr>
+                    <td class="common cate">BRAND/STYLE:</td>
+                    <td colspan="2" ><input type="text" value="Enter Brand/ Style"></td>
+                </tr>
+                <tr>
+                    <td class="common cate">FABRIC TYPE</td>
+                    <td colspan="2"><input type="text" value="Enter Fabric Type"></td>
+                </tr>
+                <tr class="sizesinc">
+                    <td class="common siz1">SIZES <br> <i class="fa-solid fa-plus"></i> </td>
+                    <td class="common cate">
+                        CHEST 1" BLW <br />
+                        AH
+                    </td>
+                    <td class="common cate">WAIST</td>
+                </tr>
+                <tr>
+                    <td class="common">SIZES</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="common">SIZES</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="common">SIZES</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="sizedec">
+                    <td class="common siz12">SIZES</td>
+                    <td class="common">Enter base size</td>
+                    <td class="common inch1">INCHES</td>
+                </tr>
+                <tr class="clearsizes">
+                    <td class="common clear">CLEAR ALL <br> SIZES)</td>
+                    <td class="common base">BASE SIZE</td>
+                    <td class="common clear">CLEAR ALL <br> SPECS</td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                </tr>
+                <tr class="pom">
+                    <td class="common siz12">REMOVE <br> POM(s) -</td>
+                    <td class="common reset">RESET ALL POMS</td>
+                    <td class="common pom1">ADD <br> POM(S) +</td>
+                </tr>
+                <tr class="pom">
+                    <td class="common unsel">UNSELECT ALL <br> POMS</td>
+                    <td class="common gen">GENERATE SIZE <br> CART</td>
+                    <td class="common base">SELECT ALL <br> POM(s)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 </body>
 </html>
