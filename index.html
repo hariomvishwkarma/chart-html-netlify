@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css&quot;"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css&quot;">
+<style>
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.table-1 {
+    width: 660px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+}
+.bg-white{
+    background:white;
+    color:gray;
+}
+.bg-gray{
+    background: #d9d9d9;
+    color:black;
+    font-weight: bold;
+}
+.color-gray{
+    color: gray;
+}
+.color-white{
+    color: white;
+}
+.bold{
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* margin-bottom: 20px; */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #f2f2f2;
+    text-align: center;
+}
+td{
+    text-align: center;
+    width: 10%;
+}
+.table-1-bottom {
+width: 96.8%;
+text-align: center;
+padding: 9px;
+border: 2px solid;
+}
+.table-2 tr {
+    height: 38px;
+}
+
+
+
+
+
+.container{
+width: 30%;
+margin: 0 auto;
+}
+
+input {
+width: 100%;
+border: none;
+text-align: center;
+}
+
+.common{
+text-align: center;
+}
+
+.cate{
+background-color:#D3D3D3;
+}
+
+.siz1{
+background-color: #00ccff;
+}
+
+.siz12{
+background-color: #ff884d;
+}
+
+.inch1{
+background-color: #0066ff;
+}
+
+.clear{
+background-color: black;
+color: #ffff;
+}
+
+.base{
+background-color: #00cc00;
+}
+
+.reset{
+background-color:   #8585ad;
+}
+
+.pom1{
+background-color: #33bbff;
+}
+
+.unsel{
+background-color:   #00ffff;
+}
+
+.gen{
+background-color: #7575a3;
+}
+
+</style>
+</head>
+<body>
+    <div class="table-1" style="margin-bottom: 30px;">
+        <h2>Chart 1</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="bg-gray" colspan="2">CATEGORY</th>
+                    <th class="bg-white" colspan="2">Select Category</th>
+                    <th class="bg-gray">BRAND/STYLE</th>
+                    <th class="bg-white" colspan="7">Enter Style #</th>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="bg-gray" colspan="2">FABRIC TYPE</td>
+                    <td class="color-gray bold" colspan="2">Enter Fabric</td>
+                    <td class="color-gray bold" colspan="8">SIZE CHART</td>
+                </tr>
+                <tr>
+                    <td colspan="1" style="background-color: #00b2ef; font-weight: bold;">    SIZES   <br><span style="    -webkit-text-stroke-width: thick; font-size: 32px;">+</span></td>
+                    <td colspan="1" class="bold bg-gray">NECK LINE CIR.</td>
+                    <td class="bold bg-gray">CHEST 1 BLW AH</td>
+                    <td class="bold bg-gray">WAIST</td>
+                    <td class="bold bg-gray">BTM<br> HEM<br>/HIP</td>
+                    <td class="bold bg-gray">FRT LGHT HPS.</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+            
+
+                </tr>
+                <tr>
+                    <td colspan="1">1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td colspan="1">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td colspan="1">3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td colspan="1">4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table-2">
+            <tr>
+            <th style="background-color: #EF7B37; color: white;">SIZES</th>
+            <th style="color: white; background-color: #70AD46;">10</th>
+            <th style="color: white; background-color:black;">CLEAR ALL SIZES</th>
+            <th style="color:white; background-color:#8398AD;">RESET ALL POMS</th>
+            <th style="color: white; background-color:black;">CLEAR ALL SPECS</th>
+            <th style="color: white; background-color:#315496;">INCHES</th>
+
+            </tr>
+            <tr>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+    
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+    
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+    
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+    
+            </tr>
+            <tr>
+                <td colspan="2" style="background-color: #10b9a4; font-weight: bold; color: white;">UNSELLECT ALL POM (S)</td>
+                <td style="background-color: #ed7d31; color: white; font-weight: bold;">REMOVE POM(s)-</td>
+                <td style="background-color: #00b1f1; color: white; font-weight: bold;">ADD POM (S)+</td>
+                <td style="background-color: #6fae43; color: white; font-weight: bold;">SELECT ALL POM(S)</td>
+                <td style="color: white; background-color:#161616;">GENERATE SIZE CHART</td>
+    
+            </tr>
+        </table>  
+        <div class="table-1-bottom">SIZE CHART GENERATOR BY:</div>
+
+    </div>    
+    <div class="table-2">
+        <h2>Chart 2</h2>
+        <table border="1" class="container">
+            <tbody>
+                <tr>
+                    <td class="common cate bold">CATEGORY</td>
+                    <td colspan="2"> <input class="bold color-gray" type="text" value="Tops" > </td>
+                </tr>
+                <tr>
+                    <td class="common cate bold">BRAND/STYLE:</td>
+                    <td colspan="2" ><input class="bold color-gray"  type="text" value="Enter Brand/ Style"></td>
+                </tr>
+                <tr>
+                    <td class="common cate bold">FABRIC TYPE</td>
+                    <td colspan="2"><input class="bold color-gray" type="text" value="Enter Fabric Type"></td>
+                </tr>
+                <tr class="sizesinc">
+                    <td class="common siz1 bold color-white">SIZES <br><span style="    -webkit-text-stroke-width: thick; font-size: 22px; color: black;">+</span> </td>
+                    <td class="common cate ">
+                        CHEST 1" BLW <br />
+                        AH
+                    </td>
+                    <td class="common cate ">WAIST</td>
+                </tr>
+                <tr>
+                    <td class="common bold">SIZES</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="common bold">SIZES</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="common bold">SIZES</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="sizedec bold">
+                    <td class="common siz12 bold color-white">SIZES</td>
+                    <td class="common bold">Enter base size</td>
+                    <td class="common inch1 bold color-white">INCHES</td>
+                </tr>
+                <tr class="clearsizes">
+                    <td class="common clear bold color-white">CLEAR ALL <br> SIZES)</td>
+                    <td class="common base bold color-white">BASE SIZE</td>
+                    <td class="common clear bold color-white">CLEAR ALL <br> SPECS</td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                    <td><input type="text" value="" ></td>
+                </tr>
+                <tr class="pom">
+                    <td class="common siz12  bold color-white">REMOVE <br> POM(s) -</td>
+                    <td class="common reset  bold color-white">RESET ALL POMS</td>
+                    <td class="common pom1  bold color-white">ADD <br> POM(S) +</td>
+                </tr>
+                <tr class="pom">
+                    <td class="common unsel  bold color-white">UNSELECT ALL <br> POMS</td>
+                    <td class="common gen  bold">GENERATE SIZE <br> CART</td>
+                    <td class="common base  bold color-white">SELECT ALL <br> POM(s)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
